@@ -12,9 +12,6 @@ textArray.each do |i|
     textArray.each do |n|
         textArray.each do |x|
             if n.to_i + i.to_i + x.to_i == targetValue
-                puts n;
-                puts i;
-                puts x;
                 puts n.to_i * i.to_i * x.to_i;
             end
         end
