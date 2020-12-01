@@ -9,8 +9,6 @@ textArray = text.split(/\n/)
 targetValue = 2020
 
 textArray.each do |i|
-    currentNum = i;
-
     textArray.each do |n|
         if n.to_i + i.to_i == targetValue
             puts n.to_i * i.to_i;
